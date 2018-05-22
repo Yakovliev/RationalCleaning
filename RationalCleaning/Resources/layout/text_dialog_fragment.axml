@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:minWidth="300dp"
+    android:minHeight="25dp"
+    android:id="@+id/text_dialog_fragment_linear_layout">
+
+  <TextView
+    android:id="@+id/header"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:layout_marginLeft="20dp"
+    android:layout_marginBottom="5dp"
+    android:textSize="20dp"/>
+
+   
+    <RationalCleaning.Dialog.LinedEditText
+        android:inputType="textMultiLine|textCapSentences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="300dp"
+        android:id="@+id/linedEditText"
+        android:gravity="top|left"
+        android:minLines="2"
+        android:lines="2" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:minWidth="25dp"
+        android:minHeight="25dp">
+        <TextView
+            android:id="@+id/NegativeButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cancel_text"
+            android:textColor="@color/colorAction"
+            android:gravity="right"
+            android:textSize="20dp"
+            android:layout_marginRight="15dp"/>
+        <TextView
+          android:id="@+id/PositiveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          android:layout_marginRight="5dp"
+          android:layout_marginLeft="5dp"
+            android:text="@string/ok_text"
+          android:textColor="@color/colorAction"
+          android:textSize="20dp"/>
+    </LinearLayout>
+</LinearLayout>

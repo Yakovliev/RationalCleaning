@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <item
+        android:id="@+id/save_item"
+        app:showAsAction="always"
+        android:title="@string/save_text"/>
+
+  <item
+        android:id="@+id/time_to_default_item"
+        app:showAsAction="never"
+        android:title="@string/time_to_default_text"/>
+
+  <item
+        android:id="@+id/date_to_default_item"
+        app:showAsAction="never"
+        android:title="@string/date_to_default_text"/>
+
+</menu>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <group>
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/nav_home" />
+    <item
+        android:id="@+id/nav_management"
+        android:icon="@drawable/ic_management"
+        android:title="@string/nav_management" />
+    <item
+        android:id="@+id/nav_list_of_rooms"
+        android:icon="@drawable/ic_list_of_rooms"
+        android:title="@string/nav_list_of_rooms" />
+    <item
+        android:id="@+id/nav_tasks_for_today"
+        android:icon="@drawable/ic_tasks_for_today"
+        android:title="@string/nav_tasks_for_today" />
+    <item
+        android:id="@+id/nav_tasks_for_next_day"
+        android:icon="@drawable/ic_tasks_for_next_day"
+        android:title="@string/nav_tasks_for_next_day" />
+    <item
+        android:id="@+id/nav_list_of_tasks"
+        android:icon="@drawable/ic_list_of_tasks"
+        android:title="@string/nav_list_of_tasks" />
+    <item
+        android:id="@+id/nav_time_on_week"
+        android:icon="@drawable/ic_time_on_week"
+        android:title="@string/nav_time_on_week" />
+    <item
+        android:id="@+id/nav_statistics"
+        android:icon="@drawable/ic_statistics"
+        android:title="@string/nav_statistics" />
+    <item
+        android:id="@+id/nav_about"
+        android:icon="@drawable/ic_about"
+        android:title="@string/nav_about" />
+  </group>
+
+  <item android:title="@string/nav_add_tasks_and_rooms">
+    <menu>
+      <item
+          android:id="@+id/nav_add_room"
+          android:icon="@drawable/ic_add_room"
+          android:title="@string/nav_add_room" />
+      <item
+          android:id="@+id/nav_create_cleaning_task"
+          android:icon="@drawable/ic_create_cleaning_task"
+          android:title="@string/nav_create_cleaning_task" />
+    </menu>
+  </item>
+
+</menu>

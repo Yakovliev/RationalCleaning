@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Rational Cleaning</string>
+
+  <string-array name="titles">
+    <item>Home</item>
+    <item>Management</item>
+    <item>List of Rooms</item>
+    <item>Tasks for Today</item>
+    <item>Tasks for Next Day</item>
+    <item>List of Tasks</item>
+    <item>Time on Week</item>
+    <item>About</item>
+  </string-array>
+
+  <string name="nav_home">Home</string>
+  <string name="nav_management">Management</string>
+  <string name="nav_list_of_rooms">List of Rooms</string>
+  <string name="nav_tasks_for_today">Tasks for Today</string>
+  <string name="nav_tasks_for_next_day">Tasks for Next Day</string>
+  <string name="nav_list_of_tasks">List of Tasks</string>
+  <string name="nav_time_on_week">Time on Week</string>
+  <string name="nav_statistics">Statistics</string>
+  <string name="nav_about">About</string>
+  <string name="nav_add_tasks_and_rooms">Add Tasks and Rooms</string>
+  <string name="nav_add_room">Add Room</string>
+  <string name="nav_create_cleaning_task">Create Task</string>
+
+
+  <string name="create_room_text">Create Room</string>
+  <string name="create_cleaning_task_text">Create Cleaning Task</string>
+
+  <string name="open_drawer">Open drawer</string>
+  <string name="close_drawer">Close drawer</string>
+
+  <string name="room_title">Room #</string>
+  <string name="task_title">Task #</string>
+
+  <string name="title_text">Title</string>
+  <string name="positive_button_lined_text_dialog">OK</string>
+  <string name="negative_button_lined_text_dialog">Cancel</string>
+  <string name="delete_alert_dialog_message">Are you sure you want to delete this room?</string>
+
+
+  <string name="save_text">Save</string>
+
+  <string name="room_saved_text">Room Saved</string>
+
+  <string name="new_task_text">New Task</string>
+  <string name="another_tasks_text">Another Tasks</string>
+  <string name="tasks_for_whole_apartement_text">Tasks for Whole Apartement</string>
+
+  <string name="minute_text">min</string>
+  <string name="update_room_title">Update Title</string>
+  <string name="delete_room">Delete Room</string>
+  
+  <string name="room_management">Management</string>
+  
+  <string name="room_updated">Room Updated</string>
+  <string name="room_deleted">Room Deleted</string>
+
+  <string name="delete_text">Delete</string>
+
+  <string name="time_to_default_text">Time to Default</string>
+  <string name="date_to_default_text">Date to Default</string>
+
+  <string name="date_time_default_text">Default date and time is seted at section "Time on Week", but if you need you can set time yourself</string>
+
+  <string name="time_text">Time:</string>
+  <string name="date_text">Date:</string>
+
+  <string name="toast_default_time_text">Time is seted to default</string>
+  <string name="toast_default_date_text">Date is seted to default</string>
+
+  <string name="list_of_rooms_text">List of Rooms</string>
+
+  <string name="days_text">days</string>
+  <string name="periodicity_text">Periodicity:</string>
+
+  <string name="time_of_cleaning_text">Time of Cleaning:</string>
+  <string name="minutes_text">mins</string>
+
+
+  <string name="task_saved_text">Cleaning Task Saved</string>
+  <string name="task_updated_text">Cleaning Task Updated</string>
+  <string name="task_deleted_text">Cleaning Task Deleted</string>
+
+  <string name="next_image_text">Next Image</string>
+
+  <string name="info_text_for_room_title">Click anywere to change room title</string>
+
+  <string name="name_of_room_text">Name of Room</string>
+
+  <string name="ok_text">OK</string>
+  <string name="cancel_text">Cancel</string>
+  <string name="description_of_task_text">Description of Task</string>
+
+  <string name="click_to_edit_text">Click to Edit Cleaning Task</string>
+
+  <string name="default_time_text">Default Time</string>
+  
+  <string name="default_date_text">Default Date</string>
+
+  <string name="cleanness_text">Cleanness:</string>
+
+  <string name="info_text_for_change_room_title">Click on Image to Change Title</string>
+
+  <string name="reschedule_for_the_next_day">Reschedule for the next day</string>
+
+  <string name="date_text">Date</string>
+
+  <string name="transfer_task_to_today_task">Transfer the task to today</string>
+
+  <string name="today_text">Today</string>
+
+
+
+
+</resources>
